@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刺猬兽资源站-主页</title>
+    <style>
+      body {
+  background-image: url("https://www.dmoe.cc/random.php");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .bubble-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .bubble-nav a {
+            position: relative;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .bubble-nav a:before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            z-index: -1;
+            opacity: 0.8;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="bubble-nav">
+        <a href="/be_serverhtml">基岩版服务器镜像</a>
+        <a href="/java_server.html">java版服务器镜像</a>
+        <a href="/other.html">其他资源</a>
+        <a href="#">维护ing......</a>
+    </div>
+</body>
+</html>
